@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import ShopByCategory from "../components/ShopByCategory";
@@ -41,9 +41,9 @@ function Home() {
           </div>
 
           <div className="sn-collection-footer">
-            <a href="/products" className="sn-view-all">
+            <Link to="/products" className="sn-view-all">
               VIEW ALL PRODUCTS <span>→</span>
-            </a>
+            </Link>
           </div>
         </section>
       </main>

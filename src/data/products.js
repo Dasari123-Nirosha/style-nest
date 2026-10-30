@@ -228,3 +228,4 @@ export const products = productGroups.flatMap((group, groupIndex) =>
 );
 
 export default products;
+console.log("Total Style Nest products:", products.length);
